@@ -29,7 +29,7 @@ Crank.Today
 
 # Resources
 
-Slack Apps
+### Slack Apps
   * https://api.slack.com/
   * https://api.slack.com/docs/sign-in-with-slack
 
@@ -37,11 +37,11 @@ Slack Apps
 
 # Models
 
-User
+### User
   * Attributes
     - email
 
-Role
+### Role
   * Types
     - Cranker
     - Executive
@@ -50,21 +50,21 @@ Role
   * Attributes
     - name
 
-Team
+### Team
   * Attributes
     - name
 
-UserRole
+### UserRole
   * Attributes
     - user_id
     - role_id
 
-UserTeam
+### UserTeam
   * Attributes
     - user_id
     - team_id
 
-DailyCrank
+### DailyCrank
   * Attributes
     - user_id
     - message : Text
