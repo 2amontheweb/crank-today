@@ -1,5 +1,16 @@
 Crank.Today
 
+# SLACK APP PAGE
+https://api.slack.com/apps/A7404UPGT/general
+https://api.slack.com/slash-commands
+https://api.slack.com/internal-integrations
+
+# SLACK SIGN IN
+https://github.com/kmrshntr/omniauth-slack
+https://api.slack.com/docs/sign-in-with-slack
+https://medium.com/slack-developer-blog/introducing-sign-in-with-slack-290949e1c3f5
+https://medium.com/@m5rk/sign-in-with-slack-2bc20d735b17
+
 # Functionality
 
 * Slack

@@ -1,0 +1,38 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/**/*'
+    - 'doc/**/*'
+    - 'spec/**/*'
+    - 'features/**/*'
+    - 'engines/**/vendor/**/*'
+    - 'engines/**/db/**/*'
+    - 'engines/**/config/**/*'
+    - 'engines/**/script/**/*'
+    - 'engines/**/bin/**/*'
+    - 'engines/**/doc/**/*'
+    - 'engines/**/spec/**/*'
+    - 'engines/**/features/**/*'
+  TargetRubyVersion: 2.3
+
+LineLength:
+  Max: 119
+
+Rails:
+  Enabled: true
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Rails/Validation:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
