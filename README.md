@@ -86,3 +86,10 @@ Crank.Today
 # Possible Issues
 
 * Time zones. It's mandatory to set a schedule for the user.
+
+# Marketing
+
+### Inspiration
+* Possible image: http://www.kettenkrad.de/bilder/crank.gif
+* Definition of cranking: turn the crankshaft of (an internal combustion engine), typically in order to start the engine.
+* "Back in the day, you couldn't start the engine until you started cranking. We believe the same is true for today's budding startups. Start having your team log their daily productivity to make sure your engine starts up and keeps combusting until to success."
