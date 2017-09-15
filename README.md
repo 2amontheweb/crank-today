@@ -96,3 +96,14 @@ Crank.Today
 
 ### Branding:
 * Possible colors: #dba80f, #0fa8db, #db0f42, a white, a dark gray
+
+### More Thoughts:
+* Informal
+* Encourages lightheartedness to get at the core of any issues
+* For the teams that are more flat in their structure
+* Cuts through the hierarchy bullshit that promotes a lack of healthy feedback
+* Add emotional intelligence to gauge when an employee is using different language
+* A tool for increasing employee engagement
+* Lightweight HR / customer happiness and productivity app
+* Think of it like your check engine light - you need to see what's up with your company if it's something's wrong - this analogy fits with the crank image.
+
