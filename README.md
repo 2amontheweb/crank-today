@@ -93,3 +93,13 @@ Crank.Today
 * Possible image: http://www.kettenkrad.de/bilder/crank.gif
 * Definition of cranking: turn the crankshaft of (an internal combustion engine), typically in order to start the engine.
 * "Back in the day, you couldn't start the engine until you started cranking. We believe the same is true for today's budding startups. Start having your team log their daily productivity to make sure your engine starts up and keeps combusting until to success."
+
+### More Thoughts:
+* Informal
+* Encourages lightheartedness to get at the core of any issues
+* For the teams that are more flat in their structure
+* Cuts through the hierarchy bullshit that promotes a lack of healthy feedback
+* Add emotional intelligence to gauge when an employee is using different language
+* A tool for increasing employee engagement
+* Lightweight HR / customer happiness and productivity app
+* Think of it like your check engine light - you need to see what's up with your company if it's something's wrong - this analogy fits with the crank image.
