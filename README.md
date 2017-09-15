@@ -107,3 +107,15 @@ Crank.Today
 * Lightweight HR / customer happiness and productivity app
 * Think of it like your check engine light - you need to see what's up with your company if it's something's wrong - this analogy fits with the crank image.
 
+# Similar Apps
+* https://cranktoday.slack.com/apps/A575TQ1QT-tinypulse
+* https://cranktoday.slack.com/apps/A0GU27WR1-leo-officevibe-bot
+* https://cranktoday.slack.com/apps/A1KEU6LV9-pep
+* https://cranktoday.slack.com/apps/A0HP2JH6Z-hyphen
+* https://cranktoday.slack.com/apps/A4QV40RG9-lucy-abbot
+* https://cranktoday.slack.com/apps/A0Y0QAQ0G-niko
+* https://cranktoday.slack.com/apps/A26BKUK7T-henry
+* https://cranktoday.slack.com/apps/A1J8C37NG-mink
+* https://cranktoday.slack.com/apps/A1DPUB7PE-fizz
+* https://cranktoday.slack.com/apps/A0ZPSSHPS-fortay
+
