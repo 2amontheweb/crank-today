@@ -7,26 +7,28 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# ENGINES
+gem 'slack', path: 'engines/slack'
+
 # APP
-gem 'active_record_query_trace'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'coffee-rails'
+# gem 'devise'
 gem 'font-awesome-rails'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'meta-tags'
+# gem 'omniauth'
+# gem 'omniauth-slack'
 gem 'pg', '~> 0.18'
 gem 'sass-rails'
 gem 'sitemap_generator'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
+gem 'versionist'
 
 # API
-# gem 'active_model_serializers', '~> 0.10.4'
-# gem 'faraday'
-# gem 'faraday_middleware'
-# gem 'versionist'
 # gem 'virtus'
 
 # OPS
@@ -55,7 +57,6 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'ffaker'
   gem 'pry-byebug'
-  # gem 'quiet_assets'
   gem 'rails-erd'
   gem 'spring'
   gem 'tqdm'

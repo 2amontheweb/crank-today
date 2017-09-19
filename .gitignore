@@ -10,12 +10,15 @@
 .DS_Store
 */.DS_Store
 engines/**/Gemfile.lock
+items
 .jshintrc
 /log/*
 !/log/.keep
 /node_modules
 *.orig
 .ruby-version
+# TODO: Let */secrets.yml exist in repository once GH repo is private.
+*/secrets.yml
 !/tmp/.keep
 /tmp/*
 /yarn-error.log
