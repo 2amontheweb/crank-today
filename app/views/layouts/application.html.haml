@@ -4,5 +4,15 @@
     = render 'layouts/head'
 
   %body
+    = content_tag(:p, notice, class: 'notice') if notice.present?
+    = content_tag(:p, alert, class: 'notice') if alert.present?
+
+    - if user_signed_in?
+      = current_user.email
+      = link_to 'Sign out', destroy_user_session_path, method: :delete
+    - else
+      = link_to user_slack_omniauth_authorize_path do
+        = image_tag 'https://api.slack.com/img/sign_in_with_slack.png'
+
     = yield
     = render 'layouts/javascripts'

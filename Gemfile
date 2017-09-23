@@ -3,7 +3,7 @@ ruby '2.3.3'
 gem 'rails', '~> 5.1.4'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 
@@ -11,16 +11,19 @@ end
 gem 'slack', path: 'engines/slack'
 
 # APP
+gem 'active_record_query_trace'
+gem 'activerecord-session_store'
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'coffee-rails'
-# gem 'devise'
+gem 'devise'
+gem 'figaro'
 gem 'font-awesome-rails'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'meta-tags'
-# gem 'omniauth'
-# gem 'omniauth-slack'
+gem 'omniauth'
+gem 'omniauth-slack'
 gem 'pg', '~> 0.18'
 gem 'sass-rails'
 gem 'sitemap_generator'
@@ -47,22 +50,12 @@ gem 'versionist'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'cancan'
-# gem 'devise'
 # gem 'rolify'
 
-group :test, :development do
+group :development do
   gem 'awesome_print'
   gem 'binding_of_caller'
   gem 'bond'
-  gem 'database_cleaner'
-  gem 'ffaker'
-  gem 'pry-byebug'
-  gem 'rails-erd'
-  gem 'spring'
-  gem 'tqdm'
-end
-
-group :development do
   # TODO: Uncomment when ready to deploy
   # gem 'capistrano'
   # gem 'capistrano-bundler'
@@ -70,10 +63,14 @@ group :development do
   # gem 'capistrano-rails'
   # gem 'capistrano-rbenv'
   # gem 'capistrano-service'
+  gem 'database_cleaner'
+  gem 'ffaker'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'pry-byebug'
+  gem 'rails-erd'
   gem 'rubocop'
   gem 'spring'
   gem 'spring-commands-rubocop'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  # gem 'web-console'
+  gem 'tqdm'
 end
