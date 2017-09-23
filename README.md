@@ -1,16 +1,5 @@
 Crank.Today
 
-# SLACK APP PAGE
-https://api.slack.com/apps/A7404UPGT/general
-https://api.slack.com/slash-commands
-https://api.slack.com/internal-integrations
-
-# SLACK SIGN IN
-https://github.com/kmrshntr/omniauth-slack
-https://api.slack.com/docs/sign-in-with-slack
-https://medium.com/slack-developer-blog/introducing-sign-in-with-slack-290949e1c3f5
-https://medium.com/@m5rk/sign-in-with-slack-2bc20d735b17
-
 # Functionality
 
 * Slack
@@ -48,7 +37,21 @@ https://medium.com/@m5rk/sign-in-with-slack-2bc20d735b17
 ### Slack Apps
 
   * https://api.slack.com/
-  * https://api.slack.com/docs/sign-in-with-slack
+
+  # SLACK APP PAGE
+  https://api.slack.com/apps/A7404UPGT/general
+  https://api.slack.com/slash-commands
+  https://api.slack.com/internal-integrations
+
+  # SLACK SIGN IN
+  https://github.com/kmrshntr/omniauth-slack
+  https://api.slack.com/docs/sign-in-with-slack
+  https://medium.com/slack-developer-blog/introducing-sign-in-with-slack-290949e1c3f5
+  https://medium.com/@m5rk/sign-in-with-slack-2bc20d735b17
+
+  # SSL
+  https://www.cloudflare.com/ssl/
+  https://letsencrypt.org/
 
 ---
 
@@ -129,4 +132,3 @@ https://medium.com/@m5rk/sign-in-with-slack-2bc20d735b17
 * https://cranktoday.slack.com/apps/A1J8C37NG-mink
 * https://cranktoday.slack.com/apps/A1DPUB7PE-fizz
 * https://cranktoday.slack.com/apps/A0ZPSSHPS-fortay
-
