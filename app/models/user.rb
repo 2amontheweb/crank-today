@@ -15,6 +15,13 @@ class User < ApplicationRecord
   #-------------------
   belongs_to :team
 
+  has_many :messages, dependent: :delete_all
+
+  #-------------------
+  # VALIDATIONS
+  #-------------------
+  validates :provider, :uid, presence: true
+
   #-------------------
   # CLASS METHODS
   #-------------------
