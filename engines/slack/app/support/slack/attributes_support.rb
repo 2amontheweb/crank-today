@@ -1,5 +1,5 @@
 module Slack
-  class AttributesSupport
+  module AttributesSupport
     class << self
       def team(attrs, keys: ::Team::OMNIAUTH_ATTRIBUTES)
         return {} if attrs.blank?

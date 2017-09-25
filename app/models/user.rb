@@ -17,6 +17,19 @@ class User < ApplicationRecord
 
   has_many :messages, dependent: :delete_all
 
+  has_one :message, -> { todays }
+
+  #-------------------
+  # DELEGATES
+  #-------------------
+  delegate :crank_text, to: :message, allow_nil: true
+  delegate :digest, to: :team, allow_nil: true, prefix: true
+
+  #-------------------
+  # SCOPES
+  #-------------------
+  scope :with_message, -> { joins(:message) }
+
   #-------------------
   # VALIDATIONS
   #-------------------
