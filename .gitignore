@@ -17,8 +17,6 @@ items
 /node_modules
 *.orig
 .ruby-version
-# TODO: Let */secrets.yml exist in repository once GH repo is private.
-*/secrets.yml
 !/tmp/.keep
 /tmp/*
 /yarn-error.log
