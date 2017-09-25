@@ -11,6 +11,13 @@ class Team < ApplicationRecord
   has_many :users, dependent: :delete_all
 
   #-------------------
+  # INSTANCE METHODS
+  #-------------------
+  def digest
+    ::DigestSupport.build(users: users.with_message)
+  end
+
+  #-------------------
   # CLASS METHODS
   #-------------------
   def self.from_omniauth(auth)
