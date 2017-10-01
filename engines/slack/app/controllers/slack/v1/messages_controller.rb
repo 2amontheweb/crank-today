@@ -1,6 +1,6 @@
 module Slack
   module V1
-    class MessagesController < ApplicationController
+    class MessagesController < ::Slack::ApplicationController
       def create
         return no_user if find_user.blank?
         @message_service = find_message_service

@@ -11,6 +11,11 @@ class Team < ApplicationRecord
   has_many :users, dependent: :delete_all
 
   #-------------------
+  # VALIDATIONS
+  #-------------------
+  validates :uid, presence: true
+
+  #-------------------
   # INSTANCE METHODS
   #-------------------
   def digest
@@ -20,8 +25,12 @@ class Team < ApplicationRecord
   #-------------------
   # CLASS METHODS
   #-------------------
-  def self.from_omniauth(auth)
-    where(uid: auth.uid).first_or_create do |team|
+  def self.from_omniauth(auth = {}, team_uid = nil)
+    team_uid ||= auth.dig(:extra, :team_info, :team, :id)
+
+    return if team_uid.blank?
+
+    where(uid: team_uid).first_or_create do |team|
       attrs = ::Slack::AttributesSupport.team(auth)
       team.assign_attributes(attrs)
     end
