@@ -8,3 +8,6 @@ heroku run rake db:migrate
 
 # Check dynos
 heroku ps
+
+# Run Heroku Rails server
+heroku run rails console
